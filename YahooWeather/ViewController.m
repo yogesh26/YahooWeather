@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - IBActions
+
+- (IBAction)clickMe:(id)sender
+{
+    NSLog(@"This is to test git integration");
+}
+
 @end

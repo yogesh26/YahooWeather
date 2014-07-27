@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIView *btnInteractive;
+-(IBAction)clickMe:(id)sender;
+
 @end
