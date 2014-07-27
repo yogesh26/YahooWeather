@@ -22,6 +22,7 @@
 		86F0D1C2198576A800BE50F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F0D1A1198576A700BE50F0 /* UIKit.framework */; };
 		86F0D1CA198576A800BE50F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F0D1C8198576A800BE50F0 /* InfoPlist.strings */; };
 		86F0D1CC198576A800BE50F0 /* YahooWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0D1CB198576A800BE50F0 /* YahooWeatherTests.m */; };
+		86F0D1D7198582CF00BE50F0 /* MyMapClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0D1D6198582CE00BE50F0 /* MyMapClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		86F0D1C7198576A800BE50F0 /* YahooWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		86F0D1C9198576A800BE50F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86F0D1CB198576A800BE50F0 /* YahooWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooWeatherTests.m; sourceTree = "<group>"; };
+		86F0D1D5198582CE00BE50F0 /* MyMapClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapClass.h; sourceTree = "<group>"; };
+		86F0D1D6198582CE00BE50F0 /* MyMapClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		86F0D1A3198576A700BE50F0 /* YahooWeather */ = {
 			isa = PBXGroup;
 			children = (
+				86F0D1D5198582CE00BE50F0 /* MyMapClass.h */,
+				86F0D1D6198582CE00BE50F0 /* MyMapClass.m */,
 				86F0D1AC198576A700BE50F0 /* AppDelegate.h */,
 				86F0D1AD198576A700BE50F0 /* AppDelegate.m */,
 				86F0D1AF198576A700BE50F0 /* Main_iPhone.storyboard */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F0D1B7198576A700BE50F0 /* ViewController.m in Sources */,
+				86F0D1D7198582CF00BE50F0 /* MyMapClass.m in Sources */,
 				86F0D1AE198576A700BE50F0 /* AppDelegate.m in Sources */,
 				86F0D1AA198576A700BE50F0 /* main.m in Sources */,
 			);
